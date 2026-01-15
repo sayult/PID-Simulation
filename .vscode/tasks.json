@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe 生成活动文件",
+			"command": "C:\\MINGW\\mingw64\\bin\\gcc.exe",
+			"args": [
+				"-finput-charset=GBK",
+				"-fexec-charset=GBK",
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:\\MINGW\\mingw64\\bin\\gcc.exe"
+		}
+	]
+}
